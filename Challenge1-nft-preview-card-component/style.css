@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding: 0.5rem 0rem;
+    color: hsl(215, 51%, 70%);
+}
+.cyan{
+    color:hsl(178, 100%, 50%);
+}
+
+.fundo{
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 0;
+}
+
+.card-imagem-principal img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
+}
+
+.card-texto h1{
+    color:hsl(0, 0%, 100%);
+    padding: 0.5rem 0rem;
+}
+.card-texto h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.card-texto .card-left{
+    float: left;
+}
+.card-texto .card-right{
+    float: right;
+}
+.card-linha{
+    display: block;
+    background-color: hsl(215, 32%, 27%);
+    width: 100%;
+    margin: 1rem;
+    border: 1px solid hsl(178, 100%, 50%);
+}
+.card-rodape{
+    margin-top: 2rem;
+}
+.card-rodape img{
+    border-radius: 5rem;
+}
+.card-rodape span{
+    color: hsl(0, 0%, 100%);;
+}
+
+.card-rodape span:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.card-small{
+    width: 50%;
+    height: auto;
+}
